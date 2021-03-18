@@ -1,0 +1,158 @@
+/* main style */
+
+html {
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 600px){
+    body {
+        background: url(./../img/background-min.jpg) no-repeat;
+        background-size: 100% auto;
+        height: 0px;
+    } 
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        background: url(./../img/background-vertical.jpg) no-repeat;
+        height: 100%;
+    } 
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    display: block;
+    font-size: 18px;
+}
+
+.background-cover {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* background: rgba(255, 255, 255, 0.6); */
+}
+
+.content-wrap {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    background: rgba(226, 219, 190, 0.9);
+}
+
+.column-left {
+    margin-left: 30px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.column-right {
+    /*margin-left: 200px;*/
+    width: 70%;
+    float: left;    
+}
+
+.color-light {
+    background-color: #FFEE93;
+}
+
+.color-dark {
+    background-color: #FFC09F;
+}
+
+.chess-panel {
+    width: 480px;
+    height: 480px;
+    margin: 0;
+}
+
+.chess-area {
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    z-index: 2;
+}
+
+.cur-span {
+    padding: 0;
+    margin: -4px;
+    display: block;
+    line-height: 0;
+}
+
+.chess-area svg {
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+}
+
+.svg-cir-non {
+    fill: none;
+    z-index: 2;
+
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.svg-cir-black {
+    fill: black;
+    z-index: 2;
+    
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.svg-cir-white {
+    fill: white;
+    z-index: 2;
+
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.svg-player-holder {
+    height: 100px;
+    width: 100px;
+}
+
+.svg-cir-change {
+    fill: lightblue;
+    z-index: 4;
+
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.svg-cir-select {
+    fill: blue;
+    z-index: 3;
+    
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.game-main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -8px;
+}
+
+.counter {
+    padding-bottom: 10px;
+}
+
+.div-end {
+    text-align: center;
+    margin-top: 20%;
+}

@@ -1,0 +1,279 @@
+html {
+    /* box-sizing: border-box; */
+    background-color: #9aa5b0;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#main-wrap {
+    margin-top: 30px;
+    /* position: absolute; */
+}
+
+#wrap-left {
+    margin-left: 50px;
+    float: left;
+    width: 50%;
+}
+
+#wrap-right {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 50%;
+}
+
+#column-left {
+    clear: both;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#column-right {
+    position: absolute;
+    margin-left: 200px;
+    clear: both;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#clothing-type p{
+    margin-left: 30px;
+}
+
+.square {
+    /*padding: 0;
+    margin: 0;*/
+    background-color: white;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+    /* fill: aliceblue; */
+    display: inline-block;
+    background-size:100% 100%;
+    background-repeat:no-repead;
+    z-index: 99;
+}
+
+/**/
+.square .done {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.square:hover, .square:focus, .square:active, .done:hover, .done:focus, .done:active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+/**/
+
+.svg-span {
+    padding: 0;
+    margin: -4px;
+    display: block;
+    line-height: 0;
+}
+
+.shoes {
+    z-index: 3;
+}
+
+.cloth {
+    z-index: 2;
+    /* display: inherit; */
+    /* position: absolute; */
+}
+
+.bucky {
+    /* z-index: 1; */
+    position: absolute;
+}
+
+.ab-class {
+    position: absolute;
+}
+
+#car-img-2 {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#btn-done {
+    width: 246px;
+    height: 120px;
+    background: url("./../img/home/finish.png");
+    border: 3px solid white;
+    background-size:100% 100%;
+    background-repeat:no-repead;
+}
+
+#final-evalu {
+    top: 10px;
+    left: 30px;
+}
+
+#evalu-back {
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+    margin-top: -100px;
+    width: 1200px;
+}
+
+#final-evalu div {
+    position: absolute;
+    font-size: 28px;
+    /* left: 20%;
+    top: 25%; */
+}
+
+#evalu-content {
+    position: absolute;
+    width: 300px;
+    left: 650px;
+    top: -500px;
+}
+
+#evalu-logo {
+    position: absolute;
+    width: 300px;
+    left: 650px;
+    top: 300px;
+}
+
+#b-img img{
+    z-index: 3;
+    position: absolute;
+}
+
+#a-img img{
+    z-index: 4;
+    position: absolute;
+}
+
+
+#b-img img {
+    width: 100%;
+    -webkit-transition: all 3000ms;
+    transition: all 3000ms;
+}
+  
+#b-img img.front-img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1)
+}
+
+#a-img img {
+    width: 100%;
+    opacity: 1;
+    transition: all 3000ms;
+    -webkit-transition: all 3000ms;
+}
+
+#a-img img.front-img {
+    -webkit-filter: opacity(0);
+    filter: opacity(0);
+}
+
+#btn-start {
+    z-index: 5;
+    background: url("./../img/firstPage/startIcon.png");
+    background-size: cover;
+    position: absolute;
+    top: 31vw;
+    left: 53vw;
+    width: 22.5vw;
+    height: 10vw;
+}
+
+#activity-B {
+    z-index: 1000;
+    top: 5vw;
+    width: 37vw;
+    height: 40vw;
+    left: 31vw; 
+}
+
+.activity {
+    left: 30%;
+    width: 60%;
+}
+
+.activity {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.activity:hover, .activity:focus, .activity:active {
+  box-shadow: 0 10px 10px -18px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.canvasjs-chart-container {
+    position: absolute;
+    left: 150px;
+    top: 200px;
+}
+
+@-webkit-keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+@keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+.hvr-ripple-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-ripple-out:before {
+  content: '';
+  position: absolute;
+  border: #e1e1e1 solid 6px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.hvr-ripple-out:hover:before, .hvr-ripple-out:focus:before, .hvr-ripple-out:active:before {
+  -webkit-animation-name: hvr-ripple-out;
+  animation-name: hvr-ripple-out;
+}
