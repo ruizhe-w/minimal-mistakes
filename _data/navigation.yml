@@ -2,11 +2,11 @@
 main:
   - title: "Home"
     url: /test/
-  - title: "Education"
-    url: /test/
-  - title: "Research"
-    url: /test/
-  - title: "Publications"
-    url: /test/
-  - title: "Misc"
-    url: /test/
+  # - title: "Education"
+  #   url: /test/
+  # - title: "Research"
+  #   url: /test/
+  # - title: "Publications"
+  #   url: /test/
+  # - title: "Misc"
+  #   url: /test/
