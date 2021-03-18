@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Homepage"
-    url: https://ruizhe-w.github.io
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: /pages/test.md
+  - title: "Education"
+    url: /pages/test.md
+  - title: "Research"
+    url: /pages/test.md
+  - title: "Publications"
+    url: /pages/test.md
+  - title: "Misc"
+    url: /pages/test.md
